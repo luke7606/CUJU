@@ -1,34 +1,25 @@
 # CUJU – Adaptive Operating System for Teams
 
-**CUJU** is a living methodology and operating system for people, teams and evolving organizations.  
-It combines structured adaptability, radical respect, and AI collaboration to improve how we work — in any context.
+CUJU is an applied philosophy, a living methodology, and an adaptive operating system for people, teams, and evolving organizations. It blends structure with flexibility, technology with humanity.
 
-## 🌐 Live Site
-https://luke7606.github.io/CUJU/
-
-## 🧠 Core Values
-- Radical respect for people  
-- Structured adaptability  
-- Technology as a teammate  
-- Simplicity with depth  
+### 🌟 Core Values
+- Radical respect for people
+- Structured adaptability
+- Technology as a symbiotic ally
+- Simplicity with depth
 - A living system, not dogma
 
-## 🛠️ CUJU Deliverables
-- CUJU Scanner (diagnosis tool)
+### 🧠 Why CUJU?
+Most methodologies are rigid or incomplete. CUJU helps teams evolve, not conform. It works **with** you, not **against** you.
+
+### 🧰 Deliverables
+- CUJU Scanner
 - Role Cards
-- Tacticopedia (pattern library)
-- Mentoring 30-60-90
+- Tacticopedia
+- 30-60-90 Mentoring
 - Adaptive Rituals
 - Integration API
 
-## 🤖 AI as Symbiont
-CUJU treats AI not as a threat but as a trusted partner. It amplifies, assists and evolves with people.
+📥 [Download CUJU Manifesto (PDF)](CUJU_Manifesto.pdf)
 
-## 📩 Contact
-Lucas Mera  
-📧 lucasmera@hotmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/talentinc/)
-
----
-
-*CUJU is not a framework. It’s the end of inflexible management.*
+📬 Want to work with CUJU? Fill the form at [luke7606.github.io/CUJU](https://luke7606.github.io/CUJU/)
