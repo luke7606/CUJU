@@ -2,8 +2,8 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>CUJU - Manifiesto de Marca</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CUJU – Manifiesto de Marca</title>
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -19,61 +19,45 @@
       padding: 40px 20px;
       text-align: center;
     }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    section {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-    h2 {
-      color: #003366;
-      margin-top: 40px;
-    }
-    .dual {
-      display: flex;
-      flex-direction: column;
-      gap: 40px;
-    }
-    .en, .es {
+    .container {
+      max-width: 960px;
+      margin: 40px auto;
       background: white;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
     }
-    .case {
-      background: #ffffff;
-      padding: 15px 20px;
-      margin-top: 20px;
-      border-left: 5px solid #003366;
-      border-radius: 6px;
-      box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    h1, h2 {
+      color: #003366;
     }
-    blockquote {
-      font-style: italic;
-      background: #f0f4f9;
-      border-left: 5px solid #003366;
-      padding: 15px 20px;
-      margin: 20px 0;
-      border-radius: 6px;
-    }
-    footer {
-      background: #eee;
-      text-align: center;
-      padding: 20px;
-      font-size: 0.9rem;
-      margin-top: 60px;
-    }
-    a.button {
-      display: inline-block;
-      margin-top: 20px;
+    .btn {
       background: #003366;
       color: white;
-      padding: 10px 20px;
-      text-decoration: none;
-      border-radius: 5px;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 20px;
+      font-size: 1rem;
+    }
+    footer {
+      margin-top: 60px;
+      padding: 20px;
+      background: #f1f1f1;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+    .dual {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+    }
+    blockquote {
+      background: #f0f4f8;
+      border-left: 4px solid #003366;
+      margin: 20px 0;
+      padding: 15px 20px;
+      font-style: italic;
     }
   </style>
 </head>
@@ -83,10 +67,12 @@
     <p>Un manifiesto vivo para humanos y tecnología</p>
   </header>
 
-  <section class="dual">
-    <div class="es">
+  <div class="container dual">
+    <!-- Español -->
+    <div>
       <h2>¿Qué es CUJU?</h2>
       <p>CUJU es una filosofía aplicada, una metodología adaptable y un sistema operativo para personas, equipos y organizaciones en evolución. No impone una forma única de trabajar: revela la mejor forma según tu contexto.</p>
+
       <h2>Valores</h2>
       <ul>
         <li>Respeto radical por las personas</li>
@@ -95,8 +81,10 @@
         <li>Simplicidad con profundidad</li>
         <li>Un sistema vivo, no un dogma</li>
       </ul>
+
       <h2>IA como Simbionte</h2>
       <p>CUJU integra la tecnología como un miembro más del equipo. La IA no reemplaza, amplifica. Se nutre y colabora con las personas.</p>
+
       <h2>Entregables CUJU</h2>
       <ul>
         <li>CUJU Scanner</li>
@@ -106,13 +94,25 @@
         <li>Rituales adaptativos</li>
         <li>API de integración</li>
       </ul>
-      <a class="button" href="mailto:lucasmera@hotmail.com">Contactar</a>
-      <a class="button" href="CUJU_MANIFIESTO.pdf" download>📥 Descargar Manifiesto PDF</a>
+
+      <h2>Casos de Uso Reales</h2>
+      <p><strong>Transformación en Fintech:</strong> Aplicando CUJU, se redujo en 40% el retrabajo y aumentó la autonomía técnica en 3 equipos distribuidos.</p>
+      <p><strong>Escalado Cultural Telco:</strong> Implementación de Tácticopedia y mentoría redujo los incidentes en un 55% en 6 meses.</p>
+
+      <h2>Testimonios</h2>
+      <blockquote>
+        “CUJU nos dio estructura sin frenar nuestra velocidad. Ahora los equipos fluyen sin perder foco.”  
+        <footer>– PM, empresa SaaS</footer>
+      </blockquote>
+
+      <button class="btn" onclick="location.href='mailto:lucasmera@hotmail.com'">Contactar</button>
     </div>
 
-    <div class="en">
+    <!-- English -->
+    <div>
       <h2>What is CUJU?</h2>
       <p>CUJU is an applied philosophy, an adaptable methodology, and an operating system for people, teams, and evolving organizations. It doesn't impose a single way of working: it reveals the best way based on your context.</p>
+
       <h2>Values</h2>
       <ul>
         <li>Radical respect for people</li>
@@ -121,8 +121,10 @@
         <li>Simplicity with depth</li>
         <li>A living system, not dogma</li>
       </ul>
+
       <h2>AI as Symbiont</h2>
       <p>CUJU integrates technology as a full team member. AI doesn't replace — it amplifies. It collaborates and evolves with humans.</p>
+
       <h2>CUJU Deliverables</h2>
       <ul>
         <li>CUJU Scanner</li>
@@ -132,45 +134,23 @@
         <li>Adaptive rituals</li>
         <li>Integration API</li>
       </ul>
-      <a class="button" href="mailto:lucasmera@hotmail.com">Contact</a>
-      <a class="button" href="CUJU_MANIFIESTO.pdf" download>📥 Download Manifesto PDF</a>
+
+      <h2>Real Use Cases</h2>
+      <p><strong>Fintech Transformation:</strong> CUJU reduced rework by 40% and increased autonomy across distributed teams.</p>
+      <p><strong>Telco Scaling:</strong> With Tacticopedia and mentoring, incidents dropped 55% within 6 months.</p>
+
+      <h2>Testimonials</h2>
+      <blockquote>
+        “CUJU gave us clarity without slowing our pace. Teams now flow with focus.”  
+        <footer>– Product Lead, US Startup</footer>
+      </blockquote>
+
+      <button class="btn" onclick="location.href='mailto:lucasmera@hotmail.com'">Contact</button>
     </div>
-  </section>
-
-  <section>
-    <h2>🔍 Casos de Uso Reales</h2>
-
-    <div class="case">
-      <h3>📦 Migración Cloud Fallida</h3>
-      <p><strong>Problema:</strong> El equipo estaba distribuido y la documentación desactualizada.</p>
-      <p><strong>Solución CUJU:</strong> Activación del Modo 🌎 (reuniones diarias asíncronas) + asignación de “Suplente Cloud”.</p>
-      <p><strong>Resultado:</strong> 30% más rápido que el timeline original.</p>
-    </div>
-
-    <div class="case">
-      <h3>👥 Stakeholders Invasivos</h3>
-      <p><strong>Problema:</strong> Cambios constantes sin priorización clara.</p>
-      <p><strong>Solución CUJU:</strong> Contratos de Rol + Protocolo Tarjeta Roja.</p>
-      <p><strong>Resultado:</strong> 80% menos cambios no críticos.</p>
-    </div>
-  </section>
-
-  <section>
-    <h2>🗣️ Lo que dicen de CUJU</h2>
-
-    <blockquote>
-      “Gracias a CUJU logramos que nuestro equipo híbrido recupere foco sin abandonar la flexibilidad.”
-      <footer>– Mariana D., CTO en Startware</footer>
-    </blockquote>
-
-    <blockquote>
-      “La integración con IA y el concepto de Tácticopedia cambió completamente nuestra cultura de aprendizaje.”
-      <footer>– Pablo R., Líder de Ingeniería, Sector Finanzas</footer>
-    </blockquote>
-  </section>
+  </div>
 
   <footer>
-    © 2025 Lucas Mera – CUJU Manifesto v1 | Built with ❤️ + GitHub Pages
+    © 2025 CUJU by Lucas Mera – All rights reserved.
   </footer>
 </body>
 </html>
