@@ -13,51 +13,72 @@
       color: #222;
       line-height: 1.6;
     }
+
     header {
       background: #003366;
       color: white;
       padding: 40px 20px;
       text-align: center;
     }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.2em;
+      color: #cce0ff;
+    }
+
     .container {
-      max-width: 960px;
-      margin: 40px auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px 20px;
+    }
+
+    .card {
       background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
       padding: 30px;
-      border-radius: 12px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      max-width: 600px;
+      flex: 1;
     }
-    h1, h2 {
+
+    h2 {
       color: #003366;
+      margin-top: 0;
     }
+
+    ul {
+      padding-left: 20px;
+    }
+
     .btn {
       background: #003366;
       color: white;
-      padding: 12px 24px;
       border: none;
+      padding: 12px 24px;
+      margin-top: 20px;
+      font-size: 1em;
       border-radius: 6px;
       cursor: pointer;
-      margin-top: 20px;
-      font-size: 1rem;
+      transition: background 0.3s;
     }
+
+    .btn:hover {
+      background: #0055aa;
+    }
+
     footer {
-      margin-top: 60px;
-      padding: 20px;
-      background: #f1f1f1;
       text-align: center;
-      font-size: 0.9rem;
-    }
-    .dual {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 40px;
-    }
-    blockquote {
-      background: #f0f4f8;
-      border-left: 4px solid #003366;
-      margin: 20px 0;
-      padding: 15px 20px;
-      font-style: italic;
+      font-size: 0.9em;
+      padding: 20px;
+      color: #666;
     }
   </style>
 </head>
@@ -67,9 +88,8 @@
     <p>Un manifiesto vivo para humanos y tecnología</p>
   </header>
 
-  <div class="container dual">
-    <!-- Español -->
-    <div>
+  <div class="container">
+    <div class="card">
       <h2>¿Qué es CUJU?</h2>
       <p>CUJU es una filosofía aplicada, una metodología adaptable y un sistema operativo para personas, equipos y organizaciones en evolución. No impone una forma única de trabajar: revela la mejor forma según tu contexto.</p>
 
@@ -95,21 +115,13 @@
         <li>API de integración</li>
       </ul>
 
-      <h2>Casos de Uso Reales</h2>
-      <p><strong>Transformación en Fintech:</strong> Aplicando CUJU, se redujo en 40% el retrabajo y aumentó la autonomía técnica en 3 equipos distribuidos.</p>
-      <p><strong>Escalado Cultural Telco:</strong> Implementación de Tácticopedia y mentoría redujo los incidentes en un 55% en 6 meses.</p>
-
-      <h2>Testimonios</h2>
-      <blockquote>
-        “CUJU nos dio estructura sin frenar nuestra velocidad. Ahora los equipos fluyen sin perder foco.”  
-        <footer>– PM, empresa SaaS</footer>
-      </blockquote>
-
-      <button class="btn" onclick="location.href='mailto:lucasmera@hotmail.com'">Contactar</button>
+      <h2>Contacto</h2>
+      <button class="btn" onclick="location.href='mailto:lucasmera@hotmail.com'">Email</button>
+      <button class="btn" onclick="window.open('https://www.linkedin.com/in/talentinc/', '_blank')">LinkedIn</button>
+      <button class="btn" onclick="window.open('https://wa.me/5493511234567', '_blank')">WhatsApp</button>
     </div>
 
-    <!-- English -->
-    <div>
+    <div class="card">
       <h2>What is CUJU?</h2>
       <p>CUJU is an applied philosophy, an adaptable methodology, and an operating system for people, teams, and evolving organizations. It doesn't impose a single way of working: it reveals the best way based on your context.</p>
 
@@ -135,22 +147,15 @@
         <li>Integration API</li>
       </ul>
 
-      <h2>Real Use Cases</h2>
-      <p><strong>Fintech Transformation:</strong> CUJU reduced rework by 40% and increased autonomy across distributed teams.</p>
-      <p><strong>Telco Scaling:</strong> With Tacticopedia and mentoring, incidents dropped 55% within 6 months.</p>
-
-      <h2>Testimonials</h2>
-      <blockquote>
-        “CUJU gave us clarity without slowing our pace. Teams now flow with focus.”  
-        <footer>– Product Lead, US Startup</footer>
-      </blockquote>
-
-      <button class="btn" onclick="location.href='mailto:lucasmera@hotmail.com'">Contact</button>
+      <h2>Contact</h2>
+      <button class="btn" onclick="location.href='mailto:lucasmera@hotmail.com'">Email</button>
+      <button class="btn" onclick="window.open('https://www.linkedin.com/in/talentinc/', '_blank')">LinkedIn</button>
+      <button class="btn" onclick="window.open('https://wa.me/5493511234567', '_blank')">WhatsApp</button>
     </div>
   </div>
 
   <footer>
-    © 2025 CUJU by Lucas Mera – All rights reserved.
+    © 2025 CUJU Manifesto · Made with 💡 by Lucas Mera
   </footer>
 </body>
 </html>
