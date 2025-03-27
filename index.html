@@ -17,8 +17,9 @@
     header {
       background: #003366;
       color: white;
-      padding: 40px 20px;
+      padding: 40px 20px 20px;
       text-align: center;
+      position: relative;
     }
 
     header h1 {
@@ -29,6 +30,21 @@
     header p {
       margin-top: 10px;
       font-size: 1.2rem;
+    }
+
+    .contact-nav {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+
+    .contact-nav a {
+      background: white;
+      color: #003366;
+      padding: 10px 16px;
+      border-radius: 5px;
+      font-weight: bold;
+      text-decoration: none;
     }
 
     .container {
@@ -46,21 +62,6 @@
 
     ul {
       padding-left: 20px;
-    }
-
-    .contact-button {
-      display: inline-block;
-      padding: 12px 30px;
-      background-color: #003366;
-      color: white;
-      border-radius: 6px;
-      text-decoration: none;
-      font-weight: bold;
-      margin-top: 30px;
-    }
-
-    .contact-button:hover {
-      background-color: #001a33;
     }
 
     .contact-section {
@@ -104,6 +105,9 @@
 <body>
 
   <header>
+    <div class="contact-nav">
+      <a href="#contacto">Contacto / Contact</a>
+    </div>
     <h1>CUJU – Sistema Operativo para Equipos Adaptativos</h1>
     <p>Un manifiesto vivo para humanos y tecnología</p>
   </header>
@@ -133,13 +137,10 @@
       <li>Rituales adaptativos</li>
       <li>API de integración</li>
     </ul>
-
-    <!-- Botón que lleva al formulario -->
-    <a href="#formulario" class="contact-button">📬 Contactar</a>
   </section>
 
-  <!-- Sección de formulario -->
-  <section class="container contact-section" id="formulario">
+  <!-- Sección de formulario de contacto -->
+  <section class="container contact-section" id="contacto">
     <h2>Contacto CUJU</h2>
     <form action="https://formspree.io/f/xovenqpj" method="POST">
       <label for="name">Nombre</label>
