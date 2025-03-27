@@ -1,25 +1,39 @@
-# CUJU – Adaptive Operating System for Teams
+# CUJU – Sistema Operativo para Equipos Adaptativos
 
-CUJU is an applied philosophy, a living methodology, and an adaptive operating system for people, teams, and evolving organizations. It blends structure with flexibility, technology with humanity.
+CUJU es una filosofía aplicada, una metodología adaptable y un sistema operativo para personas, equipos y organizaciones en evolución. No impone una forma única de trabajar: revela la mejor forma según el contexto.
 
-### 🌟 Core Values
-- Radical respect for people
-- Structured adaptability
-- Technology as a symbiotic ally
-- Simplicity with depth
-- A living system, not dogma
+---
 
-### 🧠 Why CUJU?
-Most methodologies are rigid or incomplete. CUJU helps teams evolve, not conform. It works **with** you, not **against** you.
+## 🌍 Sitio Web
 
-### 🧰 Deliverables
-- CUJU Scanner
-- Role Cards
-- Tacticopedia
-- 30-60-90 Mentoring
-- Adaptive Rituals
-- Integration API
+👉 [Explorar la Landing Page CUJU](https://luke7606.github.io/CUJU/)
 
-📥 [Download CUJU Manifesto (PDF)](CUJU_Manifesto.pdf)
+---
 
-📬 Want to work with CUJU? Fill the form at [luke7606.github.io/CUJU](https://luke7606.github.io/CUJU/)
+## 📥 Descargar Manifiestos
+
+| Archivo | Versión PDF | Versión DOCX |
+|--------|-------------|--------------|
+| Manifiesto de Marca (Español) | [Descargar PDF](./MANIFIESTO%20DE%20MARCA%20CUJU.pdf) | [Descargar DOCX](./MANIFIESTO%20DE%20MARCA%20CUJU.docx) |
+| CUJU Brand Manifesto (English) | [Download PDF](./CUJU%20BRAND%20MANIFESTO.pdf) | [Download DOCX](./CUJU%20BRAND%20MANIFESTO.docx) |
+
+---
+
+## 📎 Archivo especial
+
+🧠 [CUJU_Manifesto.pdf](./CUJU_Manifesto.pdf)
+
+Este documento es la base del manifiesto público, complementando la landing page y los entregables.
+
+---
+
+## 📬 Contacto
+
+¿Querés aplicar CUJU en tu equipo o empresa?
+
+📩 Escribinos a: `hola@cuju.systems`  
+🌐 Web oficial (próximamente): `https://cuju.systems`
+
+---
+
+> CUJU es una marca personal y sistema en evolución. Todos los contenidos están en desarrollo continuo.
